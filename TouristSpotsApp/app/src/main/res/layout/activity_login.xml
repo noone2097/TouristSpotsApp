@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown_100"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_logo_desc" />
+
+            <!-- TextView for App Title -->
+            <TextView
+                android:id="@+id/appTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tourist Spots App"
+                android:textSize="22sp"
+                android:textColor="@color/brown_800"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:gravity="center" />
+
+            <!-- Username Input with Modern Look -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:endIconMode="clear_text"
+                app:boxStrokeColor="@color/brown_700"
+                app:boxStrokeWidthFocused="2dp"
+                app:cursorColor="@color/brown_700"
+                app:hintTextColor="@color/brown_400"
+                app:hintTextAppearance="@style/HintTextStyle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/usernameInput"
+                    android:hint="Username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:singleLine="true"
+                    android:textColor="@color/brown_800"
+                    android:textColorHint="@color/brown_400" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Password Input with Eye Icon to Show/Hide Password -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:endIconMode="password_toggle"
+                app:boxStrokeColor="@color/brown_700"
+                app:cursorColor="@color/brown_700"
+                app:passwordToggleTintMode="@color/brown_700"
+                app:boxStrokeWidthFocused="2dp"
+                app:hintTextColor="@color/brown_400"
+                app:hintTextAppearance="@style/HintTextStyle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/passwordInput"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:singleLine="true"
+                    android:textColor="@color/brown_800"
+                    android:textColorHint="@color/brown_400" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/loginButton"
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/brown_300"
+                android:layout_marginTop="24dp"
+                android:elevation="4dp"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

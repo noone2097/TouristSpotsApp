@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/brown_100">
+
+    <!-- Centered Content Wrapper with Shadow -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="6dp"
+        android:clipToOutline="true">
+
+        <!-- Title TextView with a modern look -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tourist Spots"
+            android:textSize="28sp"
+            android:textColor="@color/brown_800"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"
+            android:letterSpacing="0.05"
+            android:gravity="center"
+            android:shadowColor="@color/brown_500"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2" />
+
+        <!-- ListView for displaying items -->
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:divider="@color/brown_300"
+            android:dividerHeight="1dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"
+            android:clipToPadding="false"
+            android:elevation="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:scrollbars="none" />
+
+        <!-- Footer TextView for a small description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discover amazing places to visit!"
+            android:textSize="14sp"
+            android:textColor="@color/brown_700"
+            android:gravity="center"
+            android:paddingTop="8dp" />
+    </LinearLayout>
+</FrameLayout>

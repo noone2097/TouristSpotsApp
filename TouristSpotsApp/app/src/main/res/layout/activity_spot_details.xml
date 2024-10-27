@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/brown_100">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/spotNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/brown_700"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Tourist Spot Name"
+                android:padding="8dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/spotImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_image" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/spotDescriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/brown_500"
+                android:textSize="16sp"
+                android:text="This is a brief description of the tourist spot."
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp" />
+
+            <!-- Add a Button if needed for further actions -->
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Back"
+                android:textColor="@color/text_on_accent"
+                android:backgroundTint="@color/brown_700"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="8dp"
+                android:elevation="4dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

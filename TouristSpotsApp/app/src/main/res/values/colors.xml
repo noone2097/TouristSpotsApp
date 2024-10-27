@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Primary Palette -->
+        <color name="brown_50">#EFEBE9</color>
+        <color name="brown_100">#D7CCC8</color>
+        <color name="brown_200">#BCAAA4</color>
+        <color name="brown_300">#A1887F</color>
+        <color name="brown_400">#8D6E63</color>
+        <color name="brown_500">#795548</color>
+        <color name="brown_600">#6D4C41</color>
+        <color name="brown_700">#5D4037</color>
+        <color name="brown_800">#4E342E</color>
+        <color name="brown_900">#3E2723</color>
+
+        <!-- Accent Colors -->
+        <color name="accent_light">#FFAB91</color>
+        <color name="accent_medium">#FF7043</color>
+        <color name="accent_dark">#D84315</color>
+
+        <!-- Neutral Grays -->
+        <color name="gray_50">#FAFAFA</color>
+        <color name="gray_100">#F5F5F5</color>
+        <color name="gray_200">#EEEEEE</color>
+        <color name="gray_300">#E0E0E0</color>
+        <color name="gray_400">#BDBDBD</color>
+        <color name="gray_500">#9E9E9E</color>
+        <color name="gray_600">#757575</color>
+        <color name="gray_700">#616161</color>
+        <color name="gray_800">#424242</color>
+        <color name="gray_900">#212121</color>
+
+        <!-- Background Colors -->
+        <color name="background_light">#FFFFFF</color>
+        <color name="background_dark">#3E2723</color>
+        <color name="surface_light">#FAFAFA</color>
+        <color name="surface_dark">#4E342E</color>
+
+        <!-- Text Colors -->
+        <color name="text_primary">#212121</color>
+        <color name="text_secondary">#757575</color>
+        <color name="text_on_primary">#FFFFFF</color>
+        <color name="text_on_accent">#FFFFFF</color>
+
+        <!-- Button Colors -->
+        <color name="button_normal">#8D6E63</color>
+        <color name="button_pressed">#6D4C41</color>
+        <color name="button_disabled">#BCAAA4</color>
+
+        <!-- Custom Colors for App Theme -->
+        <color name="primary">#795548</color>
+        <color name="primary_dark">#5D4037</color>
+        <color name="primary_light">#D7CCC8</color>
+        <color name="secondary">#FF7043</color>
+
+
+
+</resources>

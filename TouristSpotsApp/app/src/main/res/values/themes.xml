@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.TouristSpotsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <item name="colorPrimary">@color/brown_500</item> <!-- Primary color -->
+        <item name="colorPrimaryVariant">@color/brown_700</item> <!-- Darker shade for surfaces -->
+        <item name="colorSecondary">@color/brown_300</item> <!-- Secondary color -->
+        <item name="colorOnBackground">@color/brown_800</item> <!-- Text color on background -->
+        <item name="colorSurface">@color/brown_200</item> <!-- Surface color -->
+        <item name="colorOnSurface">@color/brown_800</item> <!-- Text color on surface -->
+        <item name="android:statusBarColor">@color/brown_700</item> <!-- Status bar color -->
+        <item name="android:navigationBarColor">@color/brown_700</item> <!-- Navigation bar color -->
+    </style>
+
+    <style name="Theme.TouristSpotsApp" parent="Base.Theme.TouristSpotsApp" />
+</resources>
